@@ -18,4 +18,9 @@
     <string name="ERROR_NUMBER_TOO_HIGH"> Le nombre est trop grand !</string>
     <string name="text_input_name"> Saisissez votre nom :</string>
     <string name="text_save"> Sauvegarder </string>
-    <string name="text_view_score"> Votre score est de : </string></resources>
+    <string name="text_view_score"> Votre score est de : </string>
+    <string name="text_title_name"> Créé par : </string>
+    <string name="text_name1"> Claire Viguoine </string>
+    <string name="text_name2"> Victor Guenez-Charles </string>
+
+</resources>

@@ -3222,7 +3222,7 @@ id button_confirm
 id button_delete
 id button_input
 id button_play
-id button_score
+id button_scores
 id cache_measures
 id callMeasure
 id cancel_button

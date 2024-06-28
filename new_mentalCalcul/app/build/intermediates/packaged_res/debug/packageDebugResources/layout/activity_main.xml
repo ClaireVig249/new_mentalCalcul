@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#CAF2EA"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -13,24 +14,65 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <Button
-            android:id="@+id/button_play"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginVertical="15dp"
-            android:text="@string/text_bouton_jouer"
-            android:textColor="@color/purple_200"
-            android:layout_gravity="center_horizontal" />
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/button_score"
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/button_play"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:height="150dp"
+                android:textSize="33dp"
+                android:backgroundTint="@color/purple_200"
+                android:text="@string/text_bouton_jouer" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <Space
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/purple_200"
-            android:textColor="@color/orange"
-            android:text="@string/text_bouton_scores"
-            android:layout_gravity="center_horizontal"
-            />
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:minHeight="100dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="100dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/button_scores"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/purple_200"
+                android:text="@string/text_bouton_scores"
+                android:textSize="17dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
 
     </LinearLayout>
 
@@ -49,10 +91,10 @@
             android:id="@+id/button_apropos"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/purple_200"
-            android:textColor="@color/orange"
             android:layout_weight="1"
-            android:text="@string/text_bouton_apropos" />
+            android:backgroundTint="@color/purple_200"
+            android:text="@string/text_bouton_apropos"
+            />
 
         <Space
             android:layout_width="match_parent"
