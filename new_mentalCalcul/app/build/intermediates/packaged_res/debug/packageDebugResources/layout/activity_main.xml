@@ -18,15 +18,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="15dp"
-            android:textColor="@color/white"
-            android:text="@string/text_bouton_jouer" />
+            android:text="@string/text_bouton_jouer"
+            android:textColor="@color/purple_200"
+            android:layout_gravity="center_horizontal" />
 
         <Button
             android:id="@+id/button_score"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/white"
-            android:text="@string/text_bouton_scores" />
+            android:background="@color/purple_200"
+            android:textColor="@color/orange"
+            android:text="@string/text_bouton_scores"
+            android:layout_gravity="center_horizontal"
+            />
 
     </LinearLayout>
 
@@ -45,6 +49,8 @@
             android:id="@+id/button_apropos"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/purple_200"
+            android:textColor="@color/orange"
             android:layout_weight="1"
             android:text="@string/text_bouton_apropos" />
 
