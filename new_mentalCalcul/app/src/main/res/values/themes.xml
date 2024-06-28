@@ -5,5 +5,10 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.New_mentalCalcul" parent="Base.Theme.New_mentalCalcul" />
+    <style name="Theme.New_mentalCalcul" parent="Base.Theme.New_mentalCalcul">
+    <item name="colorPrimary">@color/couleurToolbar2</item>
+    <item name="colorPrimaryDark">@color/moinsNoir</item>
+    <item name="colorAccent">@color/red</item>
+    </style>
+
 </resources>
