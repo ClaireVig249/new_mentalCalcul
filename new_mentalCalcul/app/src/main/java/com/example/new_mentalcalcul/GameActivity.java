@@ -23,9 +23,9 @@ public class GameActivity extends AppCompatActivity {
     private TextView textViewResultat;
 
     private MenuItem score;
-    private Integer nbScore=0;
+    private Integer nbScore = 0;
     private MenuItem vies;
-    private Integer nbVies=3;
+    private Integer nbVies = 3;
 
     private Button boutonUn,boutonDeux,boutonTrois,boutonQuatre,boutonCinq,boutonSix,boutonSept,boutonHuit,boutonNeuf,boutonZero,boutonCheck,boutonSupp;
 
