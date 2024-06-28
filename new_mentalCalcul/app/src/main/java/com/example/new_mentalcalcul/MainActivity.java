@@ -12,9 +12,8 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button boutonJouer;
-    private Button boutonScores;
-    private Button boutonAPropos;
+    private Button boutonJouer,boutonScores,boutonAPropos;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, GameActivity.class);
             startActivity(intent);
         });
-        boutonScores = findViewById(R.id.button_score);
+        boutonScores = findViewById(R.id.button_scores);
         boutonScores.setOnClickListener(view ->{
             Intent intent = new Intent(MainActivity.this, ScoresActivity.class);
             startActivity(intent);
