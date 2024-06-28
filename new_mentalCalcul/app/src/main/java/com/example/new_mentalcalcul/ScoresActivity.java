@@ -2,7 +2,6 @@ package com.example.new_mentalcalcul;
 
 import android.os.Bundle;
 import android.widget.TextView;
-
 import androidx.appcompat.app.AppCompatActivity;
 import com.example.new_mentalcalcul.DAO.ScoreBaseHelper;
 import com.example.new_mentalcalcul.DAO.ScoreDao;
