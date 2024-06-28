@@ -13,6 +13,24 @@
         android:theme="@style/Theme.New_mentalCalcul"
         tools:targetApi="31">
         <activity
+            android:name=".entities.Score"
+            android:exported="false" />
+        <activity
+            android:name=".entities.BaseEntity"
+            android:exported="false" />
+        <activity
+            android:name=".DAO.ScoreDao"
+            android:exported="false" />
+        <activity
+            android:name=".DAO.ScoreBaseHelper"
+            android:exported="false" />
+        <activity
+            android:name=".DAO.DataBaseHelper"
+            android:exported="false" />
+        <activity
+            android:name=".DAO.BaseDao"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
