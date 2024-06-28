@@ -4,7 +4,6 @@ import android.content.ContentValues;
 import android.database.Cursor;
 import com.example.new_mentalcalcul.entities.Score;
 
-
 public class ScoreDao extends BaseDao<Score>{
 
     public ScoreDao(DataBaseHelper helper) {

@@ -4,10 +4,12 @@ import android.content.ContentValues;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
+import com.example.new_mentalcalcul.entities.BaseEntity;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class BaseDao<T extends BaseEntity> {
+public abstract class BaseDao<T extends BaseEntity> {
     private final DataBaseHelper dbHelper;
 
     public BaseDao(DataBaseHelper helper){

@@ -12,6 +12,8 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.example.new_mentalcalcul.DAO.ScoreBaseHelper;
+import com.example.new_mentalcalcul.DAO.ScoreDao;
 import com.example.new_mentalcalcul.entities.Score;
 
 public class InputActivity extends AppCompatActivity {
