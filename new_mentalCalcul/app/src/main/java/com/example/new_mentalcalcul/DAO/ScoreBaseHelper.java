@@ -1,22 +1,8 @@
 package com.example.new_mentalcalcul.DAO;
 
 import android.content.Context;
-import android.os.Bundle;
 
-import androidx.activity.EdgeToEdge;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
-
-import com.example.new_mentalcalcul.R;
-
-public class ScoreBaseHelper extends DataBaseHelper {
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-    }
+public class ScoreBaseHelper extends DataBaseHelper{
 
     public ScoreBaseHelper(Context context, String dataBaseName, int dataBaseVersion) {
         super(context, dataBaseName, dataBaseVersion);
@@ -35,5 +21,4 @@ public class ScoreBaseHelper extends DataBaseHelper {
     protected String getDeleteSql() {
         return "DROP TABLE IF EXISTS "+ ScoreDao.TABLE_NAME;
     }
-
 }
