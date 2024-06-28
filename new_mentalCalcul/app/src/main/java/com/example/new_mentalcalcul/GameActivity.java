@@ -2,6 +2,7 @@ package com.example.new_mentalcalcul;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -153,7 +154,7 @@ public class GameActivity extends AppCompatActivity {
     }
 
     private void verification(){
-        if(calculResultat==resultat){
+        if(calculResultat == resultat){
             nbScore++;
             this.score.setTitle("Score : "+nbScore);
         }else{
@@ -161,7 +162,7 @@ public class GameActivity extends AppCompatActivity {
             this.vies.setTitle("Vies : "+nbVies);
         }
 
-        if(nbVies<=0){
+        if(nbVies <= 0){
             Intent intent = new Intent(GameActivity.this, InputActivity.class);
             intent.putExtra("SCORE", nbScore.toString());
             startActivity(intent);
@@ -169,7 +170,7 @@ public class GameActivity extends AppCompatActivity {
 
         generateCalcul();
         majTextGame();
-        calculResultat=0;
+        calculResultat = 0;
         majTextCalcul();
     }
 }

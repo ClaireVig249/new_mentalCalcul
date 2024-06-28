@@ -3121,6 +3121,7 @@ int id SHOW_PROGRESS 0x7f08000a
 int id SYM 0x7f08000b
 int id TOP_END 0x7f08000c
 int id TOP_START 0x7f08000d
+int id Title 0x7f080210
 int id accelerate 0x7f08000e
 int id accessibility_action_clickable_span 0x7f08000f
 int id accessibility_custom_action_0 0x7f080010
@@ -3580,6 +3581,8 @@ int id textView_resultat 0x7f0801d5
 int id text_input_end_icon 0x7f0801d6
 int id text_input_error_icon 0x7f0801d7
 int id text_input_start_icon 0x7f0801d8
+int id text_name1 0x7f080211
+int id text_name2 0x7f080212
 int id textinput_counter 0x7f0801d9
 int id textinput_error 0x7f0801da
 int id textinput_helper_text 0x7f0801db
@@ -3748,6 +3751,7 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0b0018
 int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
+int layout activity_about 0x7f0b006f
 int layout activity_game 0x7f0b001c
 int layout activity_input 0x7f0b001d
 int layout activity_main 0x7f0b001e
@@ -4017,8 +4021,11 @@ int string text_bouton_apropos 0x7f1000b2
 int string text_bouton_jouer 0x7f1000b3
 int string text_bouton_scores 0x7f1000b4
 int string text_input_name 0x7f1000b5
+int string text_name1 0x7f1000ba
+int string text_name2 0x7f1000bb
 int string text_save 0x7f1000b6
 int string text_score 0x7f1000b7
+int string text_title_name 0x7f1000bc
 int string text_vies 0x7f1000b8
 int string text_view_score 0x7f1000b9
 int style AlertDialog_AppCompat 0x7f110000

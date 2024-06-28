@@ -3122,6 +3122,7 @@ id SHOW_PROGRESS
 id SYM
 id TOP_END
 id TOP_START
+id Title
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -3581,6 +3582,8 @@ id textView_resultat
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
+id text_name1
+id text_name2
 id textinput_counter
 id textinput_error
 id textinput_helper_text
@@ -3749,6 +3752,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_about
 layout activity_game
 layout activity_input
 layout activity_main
@@ -4018,8 +4022,11 @@ string text_bouton_apropos
 string text_bouton_jouer
 string text_bouton_scores
 string text_input_name
+string text_name1
+string text_name2
 string text_save
 string text_score
+string text_title_name
 string text_vies
 string text_view_score
 style AlertDialog_AppCompat

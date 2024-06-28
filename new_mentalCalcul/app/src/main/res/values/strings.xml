@@ -3,6 +3,7 @@
     <string name="text_bouton_jouer">Jouer</string>
     <string name="text_bouton_scores">Meilleurs Scores</string>
     <string name="text_bouton_apropos">À propos</string>
+    <string name="text_podium"> Podium </string>
     <string name="text_score">Score :</string>
     <string name="text_vies">Vies :</string>
     <string name="text_bouton_0" translatable="false">0</string>

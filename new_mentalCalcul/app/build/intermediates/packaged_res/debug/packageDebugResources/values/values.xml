@@ -30,8 +30,11 @@
     <string name="text_bouton_jouer">Jouer</string>
     <string name="text_bouton_scores">Meilleurs Scores</string>
     <string name="text_input_name"> Saisissez votre nom :</string>
+    <string name="text_name1"> Claire Viguoine </string>
+    <string name="text_name2"> Victor Guenez-Charles </string>
     <string name="text_save"> Sauvegarder </string>
     <string name="text_score">Score :</string>
+    <string name="text_title_name"> Créé par : </string>
     <string name="text_vies">Vies :</string>
     <string name="text_view_score"> Votre score est de : </string>
     <style name="Base.Theme.New_mentalCalcul" parent="Theme.Material3.DayNight.NoActionBar">

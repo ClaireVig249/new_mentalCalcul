@@ -16,6 +16,7 @@ color teal_700
 color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+id Title
 id button_0
 id button_1
 id button_2
@@ -37,12 +38,15 @@ id textInputName
 id textViewScore
 id textView_calcul
 id textView_resultat
+id text_name1
+id text_name2
 id toolbar_score
 id toolbar_vies
 id tv_podium
 id tv_score1
 id tv_score2
 id tv_score3
+layout activity_about
 layout activity_game
 layout activity_input
 layout activity_main
@@ -66,8 +70,11 @@ string text_bouton_apropos
 string text_bouton_jouer
 string text_bouton_scores
 string text_input_name
+string text_name1
+string text_name2
 string text_save
 string text_score
+string text_title_name
 string text_vies
 string text_view_score
 style Base.Theme.New_mentalCalcul

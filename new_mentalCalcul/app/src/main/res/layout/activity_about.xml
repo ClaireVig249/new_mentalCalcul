@@ -8,7 +8,13 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/background"
         android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="150dp" />
 
         <TextView
             android:id="@+id/Title"
@@ -17,6 +23,11 @@
             android:gravity="center_horizontal"
             android:textSize="25dp"
             android:text="@string/text_title_name" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="150dp" />
 
         <LinearLayout
             android:layout_width="match_parent"

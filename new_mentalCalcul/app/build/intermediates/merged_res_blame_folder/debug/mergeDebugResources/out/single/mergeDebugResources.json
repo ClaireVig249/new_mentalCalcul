@@ -8,10 +8,6 @@
         "source": "C:\\Users\\ClaireViguoine\\.gradle\\daemon\\8.7\\com.example.new_mentalcalcul.app-main-33:\\mipmap-anydpi\\ic_launcher.xml"
     },
     {
-        "merged": "com.example.new_mentalcalcul.app-debug-31:/layout_activity_main.xml.flat",
-        "source": "com.example.new_mentalcalcul.app-main-33:/layout/activity_main.xml"
-    },
-    {
         "merged": "C:\\Users\\ClaireViguoine\\.gradle\\daemon\\8.7\\com.example.new_mentalcalcul.app-debug-31:\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\ClaireViguoine\\.gradle\\daemon\\8.7\\com.example.new_mentalcalcul.app-main-33:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
@@ -60,12 +56,20 @@
         "source": "C:\\Users\\ClaireViguoine\\.gradle\\daemon\\8.7\\com.example.new_mentalcalcul.app-main-33:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
+        "merged": "com.example.new_mentalcalcul.app-debug-31:/layout_activity_about.xml.flat",
+        "source": "com.example.new_mentalcalcul.app-main-33:/layout/activity_about.xml"
+    },
+    {
         "merged": "C:\\Users\\ClaireViguoine\\.gradle\\daemon\\8.7\\com.example.new_mentalcalcul.app-debug-31:\\drawable_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\ClaireViguoine\\.gradle\\daemon\\8.7\\com.example.new_mentalcalcul.app-main-33:\\drawable\\ic_launcher_foreground.xml"
     },
     {
         "merged": "C:\\Users\\ClaireViguoine\\.gradle\\daemon\\8.7\\com.example.new_mentalcalcul.app-debug-31:\\layout_activity_input.xml.flat",
         "source": "C:\\Users\\ClaireViguoine\\.gradle\\daemon\\8.7\\com.example.new_mentalcalcul.app-main-33:\\layout\\activity_input.xml"
+    },
+    {
+        "merged": "com.example.new_mentalcalcul.app-debug-31:/layout_activity_game.xml.flat",
+        "source": "com.example.new_mentalcalcul.app-main-33:/layout/activity_game.xml"
     },
     {
         "merged": "C:\\Users\\ClaireViguoine\\.gradle\\daemon\\8.7\\com.example.new_mentalcalcul.app-debug-31:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
