@@ -3,16 +3,10 @@ package com.example.new_mentalcalcul;
 import android.os.Bundle;
 import android.widget.TextView;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
-
 import com.example.new_mentalcalcul.DAO.ScoreBaseHelper;
 import com.example.new_mentalcalcul.DAO.ScoreDao;
 import com.example.new_mentalcalcul.entities.Score;
-
 import java.util.List;
 
 public class ScoresActivity extends AppCompatActivity {
