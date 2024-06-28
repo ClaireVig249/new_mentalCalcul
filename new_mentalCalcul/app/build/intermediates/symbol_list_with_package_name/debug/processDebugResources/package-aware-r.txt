@@ -1357,6 +1357,7 @@ color accent_material_dark
 color accent_material_light
 color androidx_core_ripple_material_light
 color androidx_core_secondary_text_default_material_light
+color background
 color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
@@ -4024,6 +4025,7 @@ string text_bouton_scores
 string text_input_name
 string text_name1
 string text_name2
+string text_podium
 string text_save
 string text_score
 string text_title_name
