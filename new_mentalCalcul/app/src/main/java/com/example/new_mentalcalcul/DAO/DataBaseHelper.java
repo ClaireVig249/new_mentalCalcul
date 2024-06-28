@@ -2,6 +2,7 @@ package com.example.new_mentalcalcul.DAO;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteOpenHelper;
 import android.os.Bundle;
 
 import androidx.activity.EdgeToEdge;
@@ -12,7 +13,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 import com.example.new_mentalcalcul.R;
 
-public class DataBaseHelper extends AppCompatActivity {
+public class DataBaseHelper extends SQLiteOpenHelper {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -11,7 +11,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 import com.example.new_mentalcalcul.R;
 
-public class ScoreBaseHelper extends AppCompatActivity {
+public class ScoreBaseHelper extends DataBaseHelper {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

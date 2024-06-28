@@ -3,25 +3,11 @@ package com.example.new_mentalcalcul.DAO;
 import android.content.ContentValues;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
-import android.os.Bundle;
-
-import androidx.activity.EdgeToEdge;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
-
-import com.example.new_mentalcalcul.R;
-
+import com.example.new_mentalcalcul.entities.BaseEntity;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BaseDao extends AppCompatActivity {
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-    }
+public class BaseDao<T extends BaseEntity> {
 
     private final DataBaseHelper dbHelper;
 

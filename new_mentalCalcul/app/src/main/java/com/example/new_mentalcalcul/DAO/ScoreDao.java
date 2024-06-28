@@ -11,13 +11,10 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 import com.example.new_mentalcalcul.R;
+import com.example.new_mentalcalcul.entities.Score;
 
-public class ScoreDao extends AppCompatActivity {
+public class ScoreDao extends BaseDao<Score> {
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-    }
 
     public ScoreDao(DataBaseHelper helper) {
         super(helper);
