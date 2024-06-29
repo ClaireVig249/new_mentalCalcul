@@ -7,7 +7,7 @@ public class Score extends BaseEntity{
 
     public Score(String nom, Integer score){
         this.nom = nom;
-        this.score=score;
+        this.score = score;
     }
 
     public Score(){}

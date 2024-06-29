@@ -2151,6 +2151,7 @@
     <string name="text_bouton_8" translatable="false">8</string>
     <string name="text_bouton_9" translatable="false">9</string>
     <string name="text_bouton_apropos">À propos</string>
+    <string name="text_bouton_home">Retour Menu</string>
     <string name="text_bouton_jouer">Jouer</string>
     <string name="text_bouton_scores">Meilleurs Scores</string>
     <string name="text_input_name"> Saisissez votre nom :</string>

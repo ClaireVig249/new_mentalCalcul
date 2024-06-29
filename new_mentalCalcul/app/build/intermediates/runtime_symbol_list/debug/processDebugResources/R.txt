@@ -3221,6 +3221,7 @@ int id button_9 0x7f08006d
 int id button_apropos 0x7f08006e
 int id button_confirm 0x7f08006f
 int id button_delete 0x7f080070
+int id button_home 0x7f080212
 int id button_input 0x7f080071
 int id button_play 0x7f080072
 int id button_scores 0x7f080073
@@ -4019,6 +4020,7 @@ int string text_bouton_7 0x7f1000af
 int string text_bouton_8 0x7f1000b0
 int string text_bouton_9 0x7f1000b1
 int string text_bouton_apropos 0x7f1000b2
+int string text_bouton_home 0x7f1000be
 int string text_bouton_jouer 0x7f1000b3
 int string text_bouton_scores 0x7f1000b4
 int string text_input_name 0x7f1000b5

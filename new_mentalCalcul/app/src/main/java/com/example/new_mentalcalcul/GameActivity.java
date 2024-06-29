@@ -20,13 +20,10 @@ import java.util.Random;
 
 public class GameActivity extends AppCompatActivity {
 
-    private TextView textViewCalcul;
-    private TextView textViewResultat;
+    private TextView textViewCalcul, textViewResultat;
 
-    private MenuItem score;
-    private Integer nbScore = 0;
-    private MenuItem vies;
-    private Integer nbVies = 3;
+    private MenuItem score, vies;
+    private Integer nbScore = 0, nbVies = 3;
 
     private Button boutonUn,boutonDeux,boutonTrois,boutonQuatre,boutonCinq,boutonSix,boutonSept,boutonHuit,boutonNeuf,boutonZero,boutonCheck,boutonSupp;
 
@@ -41,18 +38,18 @@ public class GameActivity extends AppCompatActivity {
         textViewCalcul=findViewById(R.id.textView_calcul);
         textViewResultat=findViewById(R.id.textView_resultat);
 
-        boutonUn=findViewById(R.id.button_1);
-        boutonDeux=findViewById(R.id.button_2);
-        boutonTrois=findViewById(R.id.button_3);
-        boutonQuatre=findViewById(R.id.button_4);
-        boutonCinq=findViewById(R.id.button_5);
-        boutonSix=findViewById(R.id.button_6);
-        boutonSept=findViewById(R.id.button_7);
-        boutonHuit=findViewById(R.id.button_8);
-        boutonNeuf=findViewById(R.id.button_9);
-        boutonZero=findViewById(R.id.button_0);
-        boutonCheck=findViewById(R.id.button_confirm);
-        boutonSupp=findViewById(R.id.button_delete);
+        boutonUn = findViewById(R.id.button_1);
+        boutonDeux = findViewById(R.id.button_2);
+        boutonTrois = findViewById(R.id.button_3);
+        boutonQuatre = findViewById(R.id.button_4);
+        boutonCinq = findViewById(R.id.button_5);
+        boutonSix = findViewById(R.id.button_6);
+        boutonSept = findViewById(R.id.button_7);
+        boutonHuit = findViewById(R.id.button_8);
+        boutonNeuf = findViewById(R.id.button_9);
+        boutonZero = findViewById(R.id.button_0);
+        boutonCheck = findViewById(R.id.button_confirm);
+        boutonSupp = findViewById(R.id.button_delete);
 
         boutonUn.setOnClickListener(view ->{
             ajouterChiffre(1);
@@ -107,20 +104,20 @@ public class GameActivity extends AppCompatActivity {
         switch(typeOpe){
             case 0:
                 typeOperation = TypeOperationEnum.ADD;
-                resultat=premierTerme+secondTerme;
+                resultat = premierTerme + secondTerme;
                 break;
             case 1:
                 typeOperation = TypeOperationEnum.SUBSTRACT;
-                resultat=premierTerme-secondTerme;
+                resultat = premierTerme - secondTerme;
                 break;
             case 2:
                 typeOperation = TypeOperationEnum.MULTIPLY;
-                resultat=premierTerme*secondTerme;
+                resultat = premierTerme * secondTerme;
                 break;
             case 3:
                 typeOperation = TypeOperationEnum.DIVIDE;
                 resultat=premierTerme;
-                premierTerme=resultat*secondTerme;
+                premierTerme = resultat * secondTerme;
                 break;
         }
     }
@@ -131,7 +128,7 @@ public class GameActivity extends AppCompatActivity {
 
     private void ajouterChiffre(Integer chiffre){
         if(calculResultat<=999){
-            calculResultat=10*calculResultat+chiffre;
+            calculResultat = 10 * calculResultat + chiffre;
             majTextCalcul();
         }else{
             Toast.makeText(this,getString(R.string.ERROR_NUMBER_TOO_HIGH), Toast.LENGTH_LONG).show();
@@ -139,7 +136,7 @@ public class GameActivity extends AppCompatActivity {
     }
 
     private void majTextCalcul(){
-        textViewResultat.setText(""+calculResultat);
+        textViewResultat.setText("" + calculResultat);
     }
 
 
@@ -147,19 +144,19 @@ public class GameActivity extends AppCompatActivity {
         MenuInflater menuInflater = getMenuInflater();
         menuInflater.inflate(R.menu.toolbar,menu);
         score = menu.findItem(R.id.toolbar_score);
-        this.score.setTitle("Score : "+nbScore);
+        this.score.setTitle("Score : " + nbScore);
         vies = menu.findItem(R.id.toolbar_vies);
-        this.vies.setTitle("Vies : "+nbVies);
+        this.vies.setTitle("Vies : " + nbVies);
         return super.onCreateOptionsMenu(menu);
     }
 
     private void verification(){
         if(calculResultat == resultat){
             nbScore++;
-            this.score.setTitle("Score : "+nbScore);
+            this.score.setTitle("Score : " + nbScore);
         }else{
             nbVies--;
-            this.vies.setTitle("Vies : "+nbVies);
+            this.vies.setTitle("Vies : " + nbVies);
         }
 
         if(nbVies <= 0){

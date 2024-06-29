@@ -31,6 +31,7 @@ id button_9
 id button_apropos
 id button_confirm
 id button_delete
+id button_home
 id button_input
 id button_play
 id button_scores
@@ -68,6 +69,7 @@ string text_bouton_7
 string text_bouton_8
 string text_bouton_9
 string text_bouton_apropos
+string text_bouton_home
 string text_bouton_jouer
 string text_bouton_scores
 string text_input_name

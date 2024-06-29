@@ -3,9 +3,7 @@ package com.example.new_mentalcalcul.DAO;
 import android.content.ContentValues;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
-
 import com.example.new_mentalcalcul.entities.BaseEntity;
-
 import java.util.ArrayList;
 import java.util.List;
 
