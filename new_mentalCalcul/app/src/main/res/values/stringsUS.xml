@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Mental Calculation</string>
     <string name="text_bouton_jouer">Play</string>
-    <string name="text_bouton_scores">Best scores</string>
+    <string name="text_bouton_scores">Highscore</string>
     <string name="text_bouton_apropos">About</string>
     <string name="text_bouton_home">Back to Menu</string>
     <string name="text_podium"> Platform </string>

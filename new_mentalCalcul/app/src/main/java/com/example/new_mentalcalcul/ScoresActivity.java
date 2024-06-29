@@ -16,7 +16,7 @@ public class ScoresActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scores);
-        scoreDao = new ScoreDao(new ScoreBaseHelper(this,"BDD",1));
+        scoreDao = new ScoreDao(new ScoreBaseHelper(this,"db.scores",1));
         tvscore1 = findViewById(R.id.tv_score1);
         tvscore2 = findViewById(R.id.tv_score2);
         tvscore3 = findViewById(R.id.tv_score3);
