@@ -20,24 +20,22 @@ public class InputActivity extends AppCompatActivity {
 
     private String nomJoueur;
     private Integer score;
-    private Button boutonSave;
+    private Button boutonSave, name;
     private TextView textViewScore;
     private ScoreDao scoreDao;
-    private Button name;
-
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_input);
 
-        scoreDao =new ScoreDao(new ScoreBaseHelper(this,"BDD",1));
+        scoreDao = new ScoreDao(new ScoreBaseHelper(this,"BDD",1));
         boutonSave = findViewById(R.id.button_input);
         textViewScore = findViewById(R.id.textViewScore);
         name = findViewById(R.id.textInputName);
-        Intent intent =getIntent();
+        Intent intent = getIntent();
         String afficheScore = intent.getStringExtra("SCORE");
-        textViewScore.setText("Score : "+afficheScore);
+        textViewScore.setText("Score : " + afficheScore);
         score = Integer.parseInt(afficheScore);
 
         boutonSave.setOnClickListener(view ->{

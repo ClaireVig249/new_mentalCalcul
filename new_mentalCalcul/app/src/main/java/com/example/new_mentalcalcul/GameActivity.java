@@ -2,33 +2,21 @@ package com.example.new_mentalcalcul;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
-
 import java.util.Random;
 
 public class GameActivity extends AppCompatActivity {
 
     private TextView textViewCalcul, textViewResultat;
-
     private MenuItem score, vies;
-    private Integer nbScore = 0, nbVies = 3;
-
+    private Integer nbScore = 0, nbVies = 3, premierTerme,secondTerme,resultat, calculResultat = 0;
     private Button boutonUn,boutonDeux,boutonTrois,boutonQuatre,boutonCinq,boutonSix,boutonSept,boutonHuit,boutonNeuf,boutonZero,boutonCheck,boutonSupp;
-
-    private Integer premierTerme,secondTerme,resultat, calculResultat = 0;
-
     private TypeOperationEnum typeOperation;
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -138,7 +126,6 @@ public class GameActivity extends AppCompatActivity {
     private void majTextCalcul(){
         textViewResultat.setText("" + calculResultat);
     }
-
 
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater menuInflater = getMenuInflater();

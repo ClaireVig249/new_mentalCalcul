@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button boutonJouer,boutonScores,boutonAPropos;
+    private Button boutonJouer, boutonScores, boutonAPropos;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -24,25 +24,25 @@ public class ScoresActivity extends AppCompatActivity {
         Score score1;
         Score score2;
         Score score3;
-        switch ( items.size())
+        switch (items.size())
         {
             case 3 :
                 score1 = items.get(0);
                 score2 = items.get(1);
                 score3 = items.get(2);
-                tvscore1.setText(score1.getNom()+ "  :  "+ score1.getScore());
-                tvscore2.setText(score2.getNom()+ "  :  "+ score2.getScore());
-                tvscore3.setText(score3.getNom()+ "  :  "+ score3.getScore());
+                tvscore1.setText(score1.getNom() + "  :  " + score1.getScore());
+                tvscore2.setText(score2.getNom() + "  :  " + score2.getScore());
+                tvscore3.setText(score3.getNom() + "  :  " + score3.getScore());
                 break;
             case 2:
                 score1 = items.get(0);
                 score2 = items.get(1);
-                tvscore1.setText(score1.getNom()+ "  :  "+ score1.getScore());
-                tvscore2.setText(score2.getNom()+ "  :  "+ score2.getScore());
+                tvscore1.setText(score1.getNom() + "  :  " + score1.getScore());
+                tvscore2.setText(score2.getNom() + "  :  " + score2.getScore());
                 break;
             case 1:
                 score1 = items.get(0);
-                tvscore1.setText(score1.getNom()+ "  :  "+ score1.getScore());
+                tvscore1.setText(score1.getNom() + "  :  " + score1.getScore());
                 break;
             default:
                 break;
